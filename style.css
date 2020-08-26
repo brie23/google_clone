@@ -1,0 +1,84 @@
+header{
+  vertical-align: middle;
+}
+
+.first {
+  float: left;
+  text-align: center;
+  display: inline-block;
+  padding-top: 20px;
+  font-family: Roboto;
+  
+}
+.second {
+  float: right;
+  text-align: center;
+  display: inline-block;
+  padding-top: 20px;
+  font-family: Roboto;
+}
+
+.third {
+  float: left;
+  font-family: Roboto;
+  padding-top: 165px;
+  
+}
+
+.fourth {
+  float: right;
+  font-family: Roboto;
+  padding-top: 165px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px;
+  
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+#logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 120px;
+  padding-bottom: 20px;
+  clear: right;
+}
+
+input {
+  border-radius: 25px;
+  display: block;
+  margin: auto;
+  padding-left: 10px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 35%;
+  border: 1px solid gray;
+ 
+}
+
+button {
+  display: inline-block;
+  margin-top: 20px;
+  margin-bottom: 100px;
+
+}
+.click {
+  text-align: center;
+ 
+}
+
+#apps {
+  display: inline;
+  height: 25px;
+  float: right;
+  padding-right: 40px;
+
+
+}
