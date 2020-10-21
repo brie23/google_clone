@@ -1,56 +1,81 @@
-header{
-  vertical-align: middle;
+body {
+ box-sizing: border-box !important;
+}
+
+header {
+  color: black;
+  font-family: arial, sans-serif;
+  font-size: 12px; 
+}
+
+footer {
+  background-color: LightGray;
+}
+
+.btn {
+  background-color: Gainsboro !important;
+  font-family: arial, sans-serif !important;
+  font-size: 14px !important;
+  color: black !important;
+  margin-top: 20px;
+  margin-bottom: 180px;
+  border: none !important;
+}
+
+#account {
+  height: 35px;
+  padding-left: 15px;
+  float: right;
+  margin-top: 10px;
+}
+
+#grid {
+  height: 40px;
+  padding-top: 15px;
+  margin-right: -17px;
 }
 
 .first {
   float: left;
-  text-align: center;
-  display: inline-block;
   padding-top: 20px;
-  font-family: Roboto;
-  
 }
+
 .second {
-  float: right;
-  text-align: center;
-  display: inline-block;
-  padding-top: 20px;
-  font-family: Roboto;
+ float: left;
+ padding-top: 20px;
 }
 
 .third {
-  float: left;
-  font-family: Roboto;
-  padding-top: 165px;
-  
+ float: left;
 }
 
 .fourth {
   float: right;
-  font-family: Roboto;
-  padding-top: 165px;
+}
+
+.login {
+  float: right;
 }
 
 a {
-  text-decoration: none;
-  color: black;
-  padding: 10px;
-  
+ color: black !important;
+ font-family: arial, sans-serif;
+ font-size: 12px;
+ padding-left: 10px;
 }
 
-a:hover {
-  text-decoration: underline;
+a.hover {
+ color: black;
+ text-decoration: underline;
 }
 
 #logo {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 120px;
-  padding-bottom: 20px;
-  clear: right;
+  margin: auto;
+  margin-top: 190px;
+  margin-bottom: 10px;
 }
-
+ 
 input {
   border-radius: 25px;
   display: block;
@@ -58,27 +83,57 @@ input {
   padding-left: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
-  width: 35%;
+  width: 45%;
   border: 1px solid gray;
- 
+  max-width: 90%;
 }
 
-button {
-  display: inline-block;
-  margin-top: 20px;
-  margin-bottom: 100px;
-
+input[type=text] {
+  background-color: white;
+  background-image: url('images/search.png');
+  background-position: 10px 5px;
+  background-repeat: no-repeat;
+  background-size: 25px;
+  padding-left: 40px;
+  opacity: 0.4;
+  position: relative;
 }
-.click {
-  text-align: center;
- 
+
+#search {
+ display: block;
+ margin: auto;
 }
 
-#apps {
-  display: inline;
-  height: 25px;
-  float: right;
-  padding-right: 40px;
-
-
+#searchlucky {
+  display: block;
+  margin: auto;
 }
+
+input:hover {
+  box-shadow: 3px 3px 3px LightGray;
+}
+
+footer {
+  background-color: #f2f2f2 !important;
+}
+
+@media only screen and (max-width: 768px) {
+  footer {
+    background-color: LightGray;
+  }
+    
+  .third, .fourth {
+    display: inline-block;
+    float: none;
+    vertical-align: middle;
+    text-align: center;
+  }
+    
+  #bottom {
+    display: block;
+    margin: auto;
+  }
+    
+  input {
+    width: 100%;
+  }
