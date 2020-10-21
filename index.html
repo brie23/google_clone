@@ -1,47 +1,62 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html lang="en">
    <head>
       <title>Google</title>
       <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="stylesheet" type="text/css" href="style.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
    </head>
    <body>
       <!-- Top Navigation -->
-      <header>
-         <div class="first">
-            <a href="">About</a>
-            <a href="">Store</a>
+      <header class="container-fluid">
+         <div>
+            <div class="container-fluid">
+               <a href="" class="first">About</a>
+               <a href="" class="first">Store</a>
+            </div>
          </div>
-         <div class="second">
-            <a href="">Gmail</a>
-            <a href="">Images</a>
-            <a href=""><img id="apps" src="images/grid_button.png"></a>
+         <div class="container-fluid">
+            <div class="login">
+               <a href="" class="second">Gmail</a>
+               <a href="" class="second">Images</a>
+               <a href=""><img id="grid" src="images/grid_button.png" alt="apps"></a>
+               <a href=""><img id="account" src="images/account.png" alt="account login"></a>
+            </div>
          </div>
       </header>
       <!-- Google Logo --> 
-      <div>
-         <img id="logo" src="images/google_logo.png">
+      <div class="container-fluid row col-md-12 text-center">
+         <img id="logo" src="images/google_logo.png" alt="Google Logo">
+      </div>
+      <!-- Search Bar -->
+      <div class="container-fluid row col-md-12 text-center">
+         <input type="text" id="search">
       </div>
       <!-- Buttons below search bar -->
-      <div>
-         <input type="text">
-      </div>
-      <div class="click">
-         <button type="button">Google Search</button>
-         <button type="button">I'm Feeling Lucky</button>
+      <div class="container-fluid">
+         <div class="row">
+            <div class="col-md-12">
+               <div id="searchlucky" class="text-center">
+                  <button type="button" class="btn btn-secondary">Google Search</button>
+                  <button type="button" class="btn btn-secondary">I'm Feeling Lucky</button>                
+               </div>
+            </div>
+         </div>
       </div>
       <!-- Footer -->
-      <footer>
-         <div class="third">
-            <a href="">Advertising</a>
-            <a href="">Business</a>
-            <a href="">How Search Works</a>
-         </div>
-         <div class="fourth">
-            <a href="">Privacy</a>
-            <a href="">Terms</a>
-            <a href="">Settings</a>
+      <footer class="container-fluid text-center">
+         <div id="bottom">
+            <div>
+               <a href="" class="third">Advertising</a>
+               <a href="" class="third">Business</a>
+               <a href="" class="third">How Search Works</a>
+            </div>
+            <div>
+               <a href="" class="fourth">Privacy</a>
+               <a href="" class="fourth">Terms</a>
+               <a href="" class="fourth">Settings</a>
+            </div>
          </div>
       </footer>
    </body>
